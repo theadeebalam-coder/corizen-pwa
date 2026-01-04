@@ -1,0 +1,21 @@
+{
+  "name": "Corizen – Study Notes & Stationery",
+  "short_name": "Corizen",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6f8f5",
+  "theme_color": "#1f4d3a",
+  "description": "Corizen is a PWA for Class 9–12 students combining notes and stationery in one app.",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
