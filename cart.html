@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Corizen – Cart</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1f4d3a" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo-wrap">
+      <img src="images/logo.png" alt="Corizen Logo" class="logo-img" />
+      <span class="logo-text">Corizen</span>
+    </div>
+  </header>
+
+  <!-- CART TITLE -->
+  <section class="section">
+    <h2>Your Cart</h2>
+  </section>
+
+  <!-- CART ITEMS -->
+  <section class="section">
+
+    <div class="cart-item">
+      <img src="images/notebook.png" alt="Notebook" class="cart-img" />
+
+      <div class="cart-info">
+        <h3>Notebook</h3>
+        <p>Books</p>
+        <span class="price">₹99</span>
+      </div>
+
+      <div class="cart-qty">
+        <button class="qty-btn">−</button>
+        <span class="qty">1</span>
+        <button class="qty-btn">+</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <img src="images/pen.png" alt="Blue Gel Pens" class="cart-img" />
+
+      <div class="cart-info">
+        <h3>Blue Gel Pens</h3>
+        <p>Pens</p>
+        <span class="price">₹149</span>
+      </div>
+
+      <div class="cart-qty">
+        <button class="qty-btn">−</button>
+        <span class="qty">1</span>
+        <button class="qty-btn">+</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CART SUMMARY -->
+  <section class="section">
+    <div class="cart-summary">
+      <div class="summary-row">
+        <span>Subtotal</span>
+        <span>₹248</span>
+      </div>
+
+      <div class="summary-row">
+        <span>Delivery</span>
+        <span>Free</span>
+      </div>
+
+      <div class="summary-row total">
+        <span>Total</span>
+        <span>₹248</span>
+      </div>
+
+      <button class="primary-btn">
+        Proceed to Checkout
+      </button>
+    </div>
+  </section>
+
+  <!-- BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <a href="index.html">🏠<span>Home</span></a>
+    <a href="notes.html">📄<span>Notes</span></a>
+    <a href="profile.html">👤<span>Profile</span></a>
+    <a class="active">🛒<span>Cart</span></a>
+  </nav>
+
+</body>
+</html>
